@@ -9,4 +9,19 @@ Phases in JSP
 3. Execution or Running Phase -> its the process of executing .class file by container.
 
 Limiation of Servlets
-1. 
+1. to develop any sevlets you need to know java language
+2.it loooks uncomformting becoz in single servlet we write presentation logic, application logic and bussiness logic
+3. Manintainence and deployement probles are more in servlets as it only allows static changes.
+4. servlets do not provide automatically program compilation , every servlet program must be compliled manually.
+5. servlets dont proved custom tags.
+6. servlets doesnot provide any implicit objects.
+
+JSP provides
+1. to write jsp, java is not necessary
+2. 
+3. JSP can minimize or reuce maintainence and deployment problems,since it aloows dyanamic changes.
+4. JSP provides automatically page compilation.
+5. jSP provides faeture to develop custom tags
+6. every jsp page contains n number of implicit objects such as out, sessions,exceptionsect.
+
+
