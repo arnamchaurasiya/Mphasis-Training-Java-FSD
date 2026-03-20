@@ -1,0 +1,51 @@
+Web apps
+2types
+Static
+Dyanamic
+
+
+Dyanamic
+Servelets/TSP
+
+
+http request
+client -> server-> DB
+DB-> server-> client
+
+
+
+CGI
+in server we have procedural, c, cobol, pearl languages
+
+threads -> server -> Application Server -> Deploy
+
+request-> thread->
+request-> thread-> servlets
+request-> thread->
+
+
+
+in views we have HTML, JS
+      |
+in Controller we have Servlet
+      |
+in Model we have setters and getter
+
+currently we use java 25
+
+servlet life cycle -> init();
+                  Service(rew,res);
+                  Destroy();
+
+
+
+session trcking
+4 types
+1. cookie
+
+      
+
+2. hidden form field
+3. url recruiting
+4. http session
+
