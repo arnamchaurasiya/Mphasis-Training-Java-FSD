@@ -24,4 +24,7 @@ JSP provides
 5. jSP provides faeture to develop custom tags
 6. every jsp page contains n number of implicit objects such as out, sessions,exceptionsect.
 
+note: when we first request jsp page translationphase,compilation phase, execution phase will taek place and from second request onwards only execution phse taking place.
+
+
 
