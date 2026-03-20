@@ -1,0 +1,12 @@
+JSP
+JSP is a technology which is implemented by server vendors.Its an alternative technology for servlets.
+
+Phases in JSP
+1. Translation phase -> It converts .jsp into .java pragram internally by container. once this phase is completed complete jsp program is converted to pure java program.
+
+2. Compilation Phase -> It it convets .java into .class file provide no error found in .java program, if error found it wil be listed in browser.
+
+3. Execution or Running Phase -> its the process of executing .class file by container.
+
+Limiation of Servlets
+1. 
