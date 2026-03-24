@@ -14,3 +14,34 @@ Advance java topics
 
 Maven Lifecycle
 Validate -> Compile -> Test -> Package -> Integration Test -> Verify -> Install -> Deploy -> Validate -> ...........repeat
+
+
+JDBC
+SQL Query | Zero queries 
+
+Manual :
+cancel/drop
+
+Connection
+
+SQL <--> Oopl Driver | Dialect
+
+Hibernate ORM
+
+Features of Hibernate:
+1. Database Independent - allowing same database across rdbms
+2. Caching Mechanism - data loaded from local mission, 
+                     - if there is no data the it will load from actual databased with help of query
+                     - improves performance via 1st level cache
+                      2nd level is factory level chache to reduce database hits
+3. Laxy Loading - optimzing where child objects only loaded when explicitly needed rather then during initial parent obeject fetch
+4. JPA Implementation - Hibernate is certified implementation of jakarta persistance api
+
+
+JDBC vs HIBERNATE
+1. Code type : Jdbc is procedural and heavy boiler plate code | |   Hibernate is obeject oriented and reduces boiler plate
+2. Language : Jdbc has native sql                             | |   Hibernate has HQL hibernate query language
+3. Exceptions : Exception : mandatory checked exception       | |   unchecked exception
+4. Mapping : Manual Mapping for JDBC                          | |   automatic ORM mappings using 1to 1, 1 to many
+
+Hibernate Lifecycle
