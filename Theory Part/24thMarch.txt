@@ -1,0 +1,13 @@
+Advance java topics
+1. JSTL(core, functions, xml, format sql)
+2.JSP (Scriplets, Expression, Declaration tags)
+3. Session
+4. Filters & Listeners
+5. ServletContext & ServletConfig
+6. CRUD & MVC
+7. Custom Tags
+8. Maven Projects(core, web)
+9. Synchronous & Asynchronous
+10. send Redirect(URL,Pages)
+11.forward, include
+12. jsp: useBean, jsp:forward, jsp:include
