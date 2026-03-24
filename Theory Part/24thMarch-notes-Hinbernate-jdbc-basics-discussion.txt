@@ -44,4 +44,9 @@ JDBC vs HIBERNATE
 3. Exceptions : Exception : mandatory checked exception       | |   unchecked exception
 4. Mapping : Manual Mapping for JDBC                          | |   automatic ORM mappings using 1to 1, 1 to many
 
-Hibernate Lifecycle
+Hibernate Basic Diagram
+
+Java Application -> object -> ORM -> Database
+
+TCL(transaction control Language)
+https://mphasis-my.sharepoint.com/:o:/p/arnam_chaurasiya/IgCllNjdwFqWQZc5niq2CEFwASZa-TPBKmw7dM6Vwnv-NEM?e=NalICK
