@@ -1,5 +1,13 @@
 thread based apps
 non thread based apps
+interface
+absrtact class
+concrete class
+constructores and factory methods
+static vs instance(non static)
+exception handling
+collections
+oops concepts
 java.lang.Thread class
 java.lang.Runnable interface
 normal interface
