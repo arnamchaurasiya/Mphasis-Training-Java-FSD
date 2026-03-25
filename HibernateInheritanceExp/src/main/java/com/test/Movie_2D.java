@@ -1,11 +1,15 @@
 package com.test;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
 @Entity
-
-
-public class Movie_2d extends Movie{
+@Table(name = "2D_MOVIE")
+//@DiscriminatorValue("2D_MOVIE")
+public class Movie_2D extends Movie
+{
+	
 	private String casting;
 
 	public String getCasting() {
@@ -15,5 +19,4 @@ public class Movie_2d extends Movie{
 	public void setCasting(String casting) {
 		this.casting = casting;
 	}
-	
 }
