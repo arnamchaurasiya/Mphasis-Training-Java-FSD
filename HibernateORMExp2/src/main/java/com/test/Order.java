@@ -4,10 +4,17 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.NamedQueries;
+import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "orders")
+@NamedQueries({
+	@NamedQuery(name = "customquery", query = "from Order o where o.o_name = :name"),
+	@NamedQuery(name = "pricequery", query = "from Order o where o.o_price = :price")
+	
+})
 public class Order {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
