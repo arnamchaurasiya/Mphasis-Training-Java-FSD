@@ -1,10 +1,9 @@
 package com.test;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-
-
 
 public class MovieDemo {
 	
@@ -20,33 +19,30 @@ public class MovieDemo {
 		
 		Transaction t = session.beginTransaction();
 		
-		Movie mobj  = new Movie();
+		Movie mobj = new Movie();
 		
 		mobj.setM_name("Indian Movie");
-		
 		mobj.setM_location("India");
 		
-Movie_2d mt= new Movie_2d();
+		Movie_2D mt = new Movie_2D();
 		
-		mt.setM_name("abc");
+		mt.setM_name("ABCD");
+		mt.setCasting("MLA");
 		
-		mt.setCasting("mohit");
-		
-		Movie_8D md= new Movie_8D();
+		Movie_8D md = new Movie_8D();
 		
 		md.setM_name("AI Animation");
-		
 		md.setDirector("Rohit");
-		
 		
 		session.persist(mobj);
 		session.persist(mt);
+		session.persist(md);
 		
-	session.persist(md);
-	t.commit();
-	System.out.println("Done");
-	session.close();
+		t.commit();
 		
+		System.out.println("Done.");
+		
+		session.close();
 	}
-
+	
 }
