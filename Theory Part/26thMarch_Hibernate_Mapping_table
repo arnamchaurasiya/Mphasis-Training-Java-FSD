@@ -1,0 +1,16 @@
+Granuality -> when obejefct has more classes than there are tables on datanbase , then we say obeject are granular thean the relational model
+
+Hibernate provides some strategies 
+
+1. Single Table Strategy -> all classses in the heirarchy area mapped to sigle table.
+                            discriminator column is used to differentiate bw row beongin to different subclass
+                            PROBLEM -> this strategy can lead to large table with many nullable columns especially if subclasses have diffrent attrobutes
+2. Joined Table Stratrgy ->  Each class in the heirarchy has its own table
+                            Problem-> this strtegy can lead to complex queries involving multiple joins, pottenttially affecting performance
+3. Table per class strategy -> Each concerte class in the heirarchy has itas own table with all attributes from the class and superclass
+                                Problems -> This stategy can leads to data redundancy
+-------ends here -------
+Incorrect Mapping ->  mistakes inb annotations can lead to incorrect table structres and data mappings.
+                      Ffor example-> not specifying the correct discriminator column cause issues when retriving
+Performance issues
+
