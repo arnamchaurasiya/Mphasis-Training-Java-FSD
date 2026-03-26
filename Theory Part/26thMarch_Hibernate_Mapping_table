@@ -44,5 +44,25 @@ Testing -> tsett he applicaton with different snarios to ensure correct mapping 
 
 Consider Alternatives -> if inheritancce heirrarchy is complex consider alternatives approaches like compositon or interfaces.
 
+Common Annotations and usage
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------
+Two Types of caching used in Hibernate
+1. First level cache
+2. Second level cache
 
