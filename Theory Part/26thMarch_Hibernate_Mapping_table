@@ -12,5 +12,37 @@ Hibernate provides some strategies
 -------ends here -------
 Incorrect Mapping ->  mistakes inb annotations can lead to incorrect table structres and data mappings.
                       Ffor example-> not specifying the correct discriminator column cause issues when retriving
-Performance issues
+Performance issues -> 
+
+Query Complexity -> Complex inheritece heirarchies can make writing HQL or JPQL more difficult especially fdealing with polymorphic rellationship
+
+Schema Evolution -> 
+
+Discriminator issus -> 
+
+Redundancy -> 
+
+Complex Queries -> 
+
+---------------------
+Solutions and Best Practices
+
+Careful Strategy Selection -> choose inheritence strategy that best fits the data model and querry patterns.
+
+Proper Annotation Usage -> Double check the annotation for correctnress, especially @inheritence, @discriminatorCOlumn and @DiscriminatorValue
+
+Use of @MappedSupperclass for shared attributes without separate table,
+use @mappedSuperclass instead of @Inheritance
+
+Optimized Queries -> use HQL or JPQL carefully
+
+Filter Stratefoes -> implement custome filters to handle plymorphic queries
+
+Schema Management -> Plan database schema evolutionslly carefully when making changes to inheritance hierrachy
+
+Testing -> tsett he applicaton with different snarios to ensure correct mapping and data retreivals
+
+Consider Alternatives -> if inheritancce heirrarchy is complex consider alternatives approaches like compositon or interfaces.
+
+
 
