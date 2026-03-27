@@ -32,5 +32,8 @@ Advantages ->   Lightwieght and non invasive
                 Integration with Other Technologies
                 Strong Community and ecosystem
 
-Spring Framework Architecture -> Data Access/Integration
+Spring Framework Architecture ->
+--------------------------------------------
+Bean Lifecycle
+Container Started -> Bean Instatiated -> Dependencies Injected -> Custome init() -> Custom Utility method -> Custom Destroy() method 
  
