@@ -1,0 +1,26 @@
+Why Spring -> it makes programming java quicker, easier, and safer for everybody.
+              it focus on speed simplicity ad productivity
+              open source java platform
+              considerd as framework of framework
+              
+Key Feautures -> modular ->consist of 20 different modules -> can be independently used
+                Inversion of Control (IOC) container
+                ex-> BeanFactory it is interface and ApplicationContext sub interface for BeanFactory
+                
+                Dependency Injection
+                Ex-> Settter Injection and Constructor Injection
+                
+                Aspect Oriented Programming (AOP)
+                Ex -> 
+                
+                Data Access Framework
+                Ex -> 
+
+                Spring MVC and WebFlux ->
+                Ex -> 
+
+                Transaction Management ->
+                Ex ->
+                
+                
+                
