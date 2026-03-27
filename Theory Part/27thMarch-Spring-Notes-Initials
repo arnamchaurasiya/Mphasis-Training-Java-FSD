@@ -21,6 +21,11 @@ Key Feautures -> modular ->consist of 20 different modules -> can be independent
 
                 Transaction Management ->
                 Ex ->
-                
-                
+                Testing Support _->
+                Ex ->
+
+Advantages ->   Lightwieght and non invasive
+                Increased peoductivity
+                Loose Coupling
+
                 
