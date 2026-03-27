@@ -27,5 +27,10 @@ Key Feautures -> modular ->consist of 20 different modules -> can be independent
 Advantages ->   Lightwieght and non invasive
                 Increased peoductivity
                 Loose Coupling
+                High Testability
+                Flexibilty and Modularity
+                Integration with Other Technologies
+                Strong Community and ecosystem
 
-                
+Spring Framework Architecture -> Data Access/Integration
+ 
