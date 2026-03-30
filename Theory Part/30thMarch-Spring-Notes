@@ -8,3 +8,8 @@ Local Transactions -> manages operatiosn within single transactional rsources su
                                 DataSourceTransactionManager for JDBC or JpaTransactionManager for JPA
                   -> Use cases: Applications with single data source
                   -> Example: 
+
+Distribute Transaction -> Multiple Resources
+                      -> Distributed Transaction Manager e.g. Jta Transaction manager
+                      -> Requires crdination bw resources
+                      -> more challeginh to aensure atomicity acroess multiple resources
