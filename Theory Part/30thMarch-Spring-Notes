@@ -1,0 +1,10 @@
+Spring -> 2 types of Transactions -> Local Transactions
+                                  -> Distributed Transactions
+
+Local Transactions -> manages operatiosn within single transactional rsources such as a database.
+                  -> straight forward to implement suitable for applications that interacts with only one database
+                  -> Scopes: sigle transactrional resource
+                  -> Mangament: handled by resource specific trasaction managers like
+                                DataSourceTransactionManager for JDBC or JpaTransactionManager for JPA
+                  -> Use cases: Applications with single data source
+                  -> Example: 
