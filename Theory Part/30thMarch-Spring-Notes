@@ -13,3 +13,11 @@ Distribute Transaction -> Multiple Resources
                       -> Distributed Transaction Manager e.g. Jta Transaction manager
                       -> Requires crdination bw resources
                       -> more challeginh to aensure atomicity acroess multiple resources
+
+Transactions -> it regulates the the modifivcations we exaecute in one ot more softeares like databases or message
+
+ACID ->
+
+Isolation -> 
+
+Durability -> 
