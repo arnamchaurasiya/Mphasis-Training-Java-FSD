@@ -21,3 +21,8 @@ ACID ->
 Isolation -> 
 
 Durability -> 
+
+Programmatic vs. Declrative Transaction Management
+
+spring supports two type of transaction management -> Programmatic transaction management
+                                                  -> Declrarative transaction management
