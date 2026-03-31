@@ -1,3 +1,17 @@
-Spring Boot -> extension of spring framework
+Spring Boot -> extension of spring framework, folows RAD (rapid action development) technique
 
 Spring Framework + Embedded HTTP Servers (Tomcat,Jetty) - XML<bean> configuration or @configuration = Spring Boot
+
+------------------------------
+
+
+Spring Boot Annotations Overview ->
+---------------------------
+
+Web Services -> all info shared through programatic interfce across a network
+ --------------------
+
+Restful Web Services ->
+----------------------------
+
+
