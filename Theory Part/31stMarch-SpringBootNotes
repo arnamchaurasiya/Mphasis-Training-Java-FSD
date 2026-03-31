@@ -14,4 +14,8 @@ Web Services -> all info shared through programatic interfce across a network
 Restful Web Services ->
 ----------------------------
 
+@Component -> @Controller (Presentations Layer)
+           -> @Service (Service Layer)
+           -> @Repository (Data Access Layer)
+
 
