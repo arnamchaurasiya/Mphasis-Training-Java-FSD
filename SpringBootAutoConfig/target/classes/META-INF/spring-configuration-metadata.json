@@ -1,0 +1,14 @@
+{
+  "groups": [
+    {
+      "name": "MyService",
+      "type": "com.test.service.MyServiceProperties",
+      "sourceType": "com.test.service.MyServiceProperties"
+    }
+  ],
+  "properties": [],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
